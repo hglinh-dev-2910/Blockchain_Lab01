@@ -1,0 +1,243 @@
+17:20:43 [INFO] Node-4: Node initialized. State: FOLLOWER, Term: 0
+17:20:43 [INFO] Node-4: Server started listening on 127.0.0.1:50054
+17:21:25 [WARNING] Node-4: Election timeout (3.31s). Starting election...
+17:21:25 [INFO] Node-4: Became CANDIDATE. Term: 3. Requesting votes...
+17:21:25 [DEBUG] Node-4: Vote received from Node 5. Total: 2
+17:21:25 [DEBUG] Node-4: Vote received from Node 2. Total: 3
+17:21:25 [INFO] Node-4: *** BECAME LEADER (Term 3) ***
+17:22:20 [INFO] Node-4: Client command received: 'SET student_name NguyenVanA'. Appended to local log index 1
+17:22:21 [INFO] Node-4: Leader committed index 1
+17:22:21 [INFO] Node-4: Checking committed entry... APPLIED TO DB: student_name = NguyenVanA | Current DB: {'student_name': 'NguyenVanA'}
+17:23:39 [INFO] Node-4: Voted YES for Node 1 in Term 4
+17:23:54 [INFO] Node-4: Voted YES for Node 3 in Term 5
+17:23:54 [INFO] Node-4: Voted YES for Node 1 in Term 6
+17:23:58 [INFO] Node-4: Voted YES for Node 3 in Term 7
+17:23:58 [INFO] Node-4: Voted YES for Node 1 in Term 8
+17:24:02 [INFO] Node-4: Voted YES for Node 3 in Term 9
+17:24:02 [INFO] Node-4: Voted YES for Node 1 in Term 10
+17:24:07 [INFO] Node-4: Voted YES for Node 3 in Term 11
+17:24:07 [INFO] Node-4: Voted YES for Node 1 in Term 12
+17:24:12 [INFO] Node-4: Voted YES for Node 3 in Term 13
+17:24:12 [INFO] Node-4: Voted YES for Node 1 in Term 14
+17:24:17 [INFO] Node-4: Voted YES for Node 3 in Term 15
+17:24:18 [INFO] Node-4: Voted YES for Node 1 in Term 16
+17:24:22 [INFO] Node-4: Voted YES for Node 3 in Term 17
+17:24:22 [INFO] Node-4: Voted YES for Node 1 in Term 18
+17:24:27 [INFO] Node-4: Voted YES for Node 3 in Term 19
+17:24:27 [INFO] Node-4: Voted YES for Node 1 in Term 20
+17:24:32 [INFO] Node-4: Voted YES for Node 3 in Term 21
+17:24:32 [INFO] Node-4: Voted YES for Node 1 in Term 22
+17:24:35 [INFO] Node-4: Voted YES for Node 3 in Term 23
+17:24:38 [INFO] Node-4: Voted YES for Node 1 in Term 24
+17:24:40 [INFO] Node-4: Voted YES for Node 3 in Term 25
+17:24:43 [INFO] Node-4: Voted YES for Node 1 in Term 26
+17:24:43 [INFO] Node-4: Voted YES for Node 3 in Term 27
+17:24:48 [INFO] Node-4: Voted YES for Node 1 in Term 28
+17:24:48 [INFO] Node-4: Voted YES for Node 3 in Term 29
+17:24:54 [INFO] Node-4: Voted YES for Node 1 in Term 30
+17:24:55 [INFO] Node-4: Voted YES for Node 3 in Term 31
+17:24:58 [INFO] Node-4: Voted YES for Node 1 in Term 32
+17:24:59 [INFO] Node-4: Voted YES for Node 3 in Term 33
+17:25:01 [INFO] Node-4: Voted YES for Node 1 in Term 34
+17:25:05 [INFO] Node-4: Voted YES for Node 3 in Term 35
+17:25:06 [INFO] Node-4: Voted YES for Node 1 in Term 36
+17:25:08 [INFO] Node-4: Checking committed entry... APPLIED TO DB: student_name = HoVanB | Current DB: {'student_name': 'HoVanB'}
+17:25:11 [INFO] Node-4: Voted YES for Node 1 in Term 38
+17:25:22 [INFO] Node-4: Voted YES for Node 1 in Term 40
+17:25:32 [INFO] Node-4: Voted YES for Node 1 in Term 42
+17:25:42 [INFO] Node-4: Voted YES for Node 1 in Term 44
+17:25:54 [INFO] Node-4: Voted YES for Node 1 in Term 46
+17:26:05 [INFO] Node-4: Voted YES for Node 1 in Term 48
+17:26:06 [INFO] Node-4: Server stopped.
+17:26:43 [INFO] Node-4: Node initialized. State: FOLLOWER, Term: 0
+17:26:43 [INFO] Node-4: Server started listening on 127.0.0.1:50054
+17:27:47 [INFO] Node-4: Checking committed entry... APPLIED TO DB: today = Tuesday | Current DB: {'today': 'Tuesday'}
+17:28:50 [INFO] Node-4: Voted YES for Node 3 in Term 4
+17:28:51 [INFO] Node-4: Voted YES for Node 1 in Term 5
+17:28:54 [INFO] Node-4: Voted YES for Node 3 in Term 6
+17:28:55 [INFO] Node-4: Voted YES for Node 1 in Term 7
+17:28:58 [INFO] Node-4: Voted YES for Node 3 in Term 8
+17:28:59 [INFO] Node-4: Voted YES for Node 1 in Term 9
+17:29:02 [INFO] Node-4: Voted YES for Node 3 in Term 10
+17:29:03 [INFO] Node-4: Voted YES for Node 1 in Term 11
+17:29:07 [INFO] Node-4: Voted YES for Node 3 in Term 12
+17:29:08 [INFO] Node-4: Voted YES for Node 1 in Term 13
+17:29:13 [INFO] Node-4: Voted YES for Node 3 in Term 14
+17:29:14 [INFO] Node-4: Voted YES for Node 1 in Term 15
+17:29:19 [INFO] Node-4: Voted YES for Node 3 in Term 16
+17:29:19 [INFO] Node-4: Voted YES for Node 1 in Term 17
+17:29:23 [INFO] Node-4: Voted YES for Node 3 in Term 18
+17:29:23 [INFO] Node-4: Voted YES for Node 1 in Term 19
+17:29:28 [INFO] Node-4: Voted YES for Node 3 in Term 20
+17:29:29 [INFO] Node-4: Voted YES for Node 1 in Term 21
+17:29:32 [INFO] Node-4: Voted YES for Node 3 in Term 22
+17:29:33 [INFO] Node-4: Voted YES for Node 1 in Term 23
+17:29:37 [INFO] Node-4: Voted YES for Node 3 in Term 24
+17:29:39 [INFO] Node-4: Voted YES for Node 1 in Term 25
+17:29:42 [INFO] Node-4: Voted YES for Node 3 in Term 26
+17:29:44 [INFO] Node-4: Voted YES for Node 1 in Term 27
+17:29:46 [INFO] Node-4: Voted YES for Node 3 in Term 28
+17:29:50 [INFO] Node-4: Voted YES for Node 1 in Term 29
+17:29:51 [INFO] Node-4: Voted YES for Node 3 in Term 30
+17:29:54 [INFO] Node-4: Voted YES for Node 1 in Term 31
+17:29:57 [INFO] Node-4: Voted YES for Node 3 in Term 32
+17:29:58 [INFO] Node-4: Voted YES for Node 1 in Term 33
+17:30:00 [INFO] Node-4: Voted YES for Node 3 in Term 34
+17:30:03 [INFO] Node-4: Voted YES for Node 1 in Term 35
+17:30:05 [INFO] Node-4: Voted YES for Node 3 in Term 36
+17:30:08 [INFO] Node-4: Voted YES for Node 1 in Term 37
+17:30:08 [INFO] Node-4: Voted YES for Node 3 in Term 38
+17:30:12 [INFO] Node-4: Voted YES for Node 1 in Term 39
+17:30:14 [INFO] Node-4: Voted YES for Node 3 in Term 40
+17:30:16 [INFO] Node-4: Voted YES for Node 1 in Term 41
+17:30:19 [INFO] Node-4: Voted YES for Node 3 in Term 42
+17:30:22 [INFO] Node-4: Voted YES for Node 1 in Term 43
+17:30:25 [INFO] Node-4: Voted YES for Node 3 in Term 44
+17:30:27 [INFO] Node-4: Voted YES for Node 1 in Term 45
+17:30:29 [INFO] Node-4: Voted YES for Node 3 in Term 46
+17:30:31 [INFO] Node-4: Voted YES for Node 1 in Term 47
+17:30:33 [INFO] Node-4: Voted YES for Node 3 in Term 48
+17:30:35 [INFO] Node-4: Voted YES for Node 1 in Term 49
+17:30:37 [INFO] Node-4: Voted YES for Node 3 in Term 50
+17:30:40 [INFO] Node-4: Voted YES for Node 1 in Term 51
+17:30:42 [INFO] Node-4: Voted YES for Node 3 in Term 52
+17:30:46 [INFO] Node-4: Voted YES for Node 1 in Term 53
+17:30:46 [INFO] Node-4: Voted YES for Node 3 in Term 54
+17:30:51 [INFO] Node-4: Voted YES for Node 1 in Term 55
+17:30:51 [INFO] Node-4: Voted YES for Node 3 in Term 56
+17:30:54 [INFO] Node-4: Voted YES for Node 1 in Term 57
+17:30:55 [INFO] Node-4: Voted YES for Node 3 in Term 58
+17:30:58 [INFO] Node-4: Voted YES for Node 1 in Term 59
+17:31:00 [INFO] Node-4: Voted YES for Node 3 in Term 60
+17:31:04 [INFO] Node-4: Voted YES for Node 1 in Term 61
+17:31:06 [INFO] Node-4: Voted YES for Node 3 in Term 62
+17:31:09 [INFO] Node-4: Voted YES for Node 1 in Term 63
+17:31:10 [INFO] Node-4: Voted YES for Node 3 in Term 64
+17:31:14 [INFO] Node-4: Voted YES for Node 1 in Term 65
+17:31:15 [INFO] Node-4: Voted YES for Node 3 in Term 66
+17:31:18 [INFO] Node-4: Voted YES for Node 1 in Term 67
+17:31:20 [INFO] Node-4: Voted YES for Node 3 in Term 68
+17:31:24 [INFO] Node-4: Voted YES for Node 1 in Term 69
+17:31:24 [INFO] Node-4: Voted YES for Node 3 in Term 70
+17:31:29 [INFO] Node-4: Voted YES for Node 1 in Term 71
+17:31:30 [INFO] Node-4: Voted YES for Node 3 in Term 72
+17:31:34 [INFO] Node-4: Voted YES for Node 1 in Term 73
+17:31:34 [INFO] Node-4: Voted YES for Node 3 in Term 74
+17:31:39 [INFO] Node-4: Voted YES for Node 1 in Term 75
+17:31:39 [INFO] Node-4: Voted YES for Node 3 in Term 76
+17:31:43 [INFO] Node-4: Voted YES for Node 1 in Term 77
+17:31:44 [INFO] Node-4: Voted YES for Node 3 in Term 78
+17:31:47 [INFO] Node-4: Voted YES for Node 1 in Term 79
+17:31:49 [INFO] Node-4: Voted YES for Node 3 in Term 80
+17:31:53 [INFO] Node-4: Voted YES for Node 1 in Term 81
+17:31:54 [INFO] Node-4: Voted YES for Node 3 in Term 82
+17:31:58 [INFO] Node-4: Voted YES for Node 1 in Term 83
+17:31:59 [INFO] Node-4: Voted YES for Node 3 in Term 84
+17:32:02 [INFO] Node-4: Voted YES for Node 1 in Term 85
+17:32:03 [INFO] Node-4: Voted YES for Node 3 in Term 86
+17:32:06 [INFO] Node-4: Voted YES for Node 1 in Term 87
+17:32:09 [INFO] Node-4: Voted YES for Node 3 in Term 88
+17:32:09 [INFO] Node-4: Voted YES for Node 1 in Term 89
+17:32:14 [INFO] Node-4: Voted YES for Node 3 in Term 90
+17:32:14 [INFO] Node-4: Voted YES for Node 1 in Term 91
+17:32:20 [INFO] Node-4: Voted YES for Node 3 in Term 92
+17:32:20 [INFO] Node-4: Voted YES for Node 1 in Term 93
+17:32:24 [INFO] Node-4: Voted YES for Node 3 in Term 94
+17:32:25 [INFO] Node-4: Voted YES for Node 1 in Term 95
+17:32:28 [INFO] Node-4: Voted YES for Node 3 in Term 96
+17:32:28 [INFO] Node-4: Voted YES for Node 1 in Term 97
+17:32:33 [INFO] Node-4: Voted YES for Node 3 in Term 98
+17:32:33 [INFO] Node-4: Voted YES for Node 1 in Term 99
+17:32:37 [INFO] Node-4: Voted YES for Node 3 in Term 100
+17:32:37 [INFO] Node-4: Voted YES for Node 1 in Term 101
+17:32:40 [INFO] Node-4: Voted YES for Node 3 in Term 102
+17:32:43 [INFO] Node-4: Voted YES for Node 1 in Term 103
+17:32:45 [INFO] Node-4: Voted YES for Node 3 in Term 104
+17:32:46 [INFO] Node-4: Voted YES for Node 1 in Term 105
+17:32:49 [INFO] Node-4: Voted YES for Node 3 in Term 106
+17:32:50 [INFO] Node-4: Voted YES for Node 1 in Term 107
+17:32:55 [INFO] Node-4: Voted YES for Node 3 in Term 108
+17:32:56 [INFO] Node-4: Voted YES for Node 1 in Term 109
+17:32:58 [INFO] Node-4: Voted YES for Node 3 in Term 110
+17:32:59 [INFO] Node-4: Voted YES for Node 1 in Term 111
+17:33:01 [INFO] Node-4: Voted YES for Node 3 in Term 112
+17:33:03 [INFO] Node-4: Voted YES for Node 1 in Term 113
+17:33:06 [INFO] Node-4: Voted YES for Node 3 in Term 114
+17:33:09 [INFO] Node-4: Voted YES for Node 1 in Term 115
+17:33:10 [INFO] Node-4: Voted YES for Node 3 in Term 116
+17:33:15 [INFO] Node-4: Voted YES for Node 1 in Term 117
+17:33:15 [INFO] Node-4: Voted YES for Node 3 in Term 118
+17:33:18 [INFO] Node-4: Voted YES for Node 1 in Term 119
+17:33:19 [INFO] Node-4: Voted YES for Node 3 in Term 120
+17:33:23 [INFO] Node-4: Voted YES for Node 1 in Term 121
+17:33:24 [INFO] Node-4: Voted YES for Node 3 in Term 122
+17:33:28 [INFO] Node-4: Voted YES for Node 1 in Term 123
+17:33:28 [INFO] Node-4: Voted YES for Node 3 in Term 124
+17:33:32 [INFO] Node-4: Voted YES for Node 1 in Term 125
+17:33:33 [INFO] Node-4: Voted YES for Node 3 in Term 126
+17:33:36 [INFO] Node-4: Voted YES for Node 1 in Term 127
+17:33:38 [INFO] Node-4: Voted YES for Node 3 in Term 128
+17:33:40 [INFO] Node-4: Voted YES for Node 1 in Term 129
+17:33:42 [INFO] Node-4: Voted YES for Node 3 in Term 130
+17:33:45 [INFO] Node-4: Voted YES for Node 1 in Term 131
+17:33:46 [INFO] Node-4: Voted YES for Node 3 in Term 132
+17:33:49 [INFO] Node-4: Voted YES for Node 1 in Term 133
+17:33:50 [INFO] Node-4: Voted YES for Node 3 in Term 134
+17:34:03 [INFO] Node-4: Voted YES for Node 5 in Term 135
+17:34:04 [INFO] Node-4: Server stopped.
+17:34:58 [INFO] Node-4: Node initialized. State: FOLLOWER, Term: 0
+17:34:58 [INFO] Node-4: Server started listening on 127.0.0.1:50054
+17:35:07 [WARNING] Node-4: Partition updated. Blocked: ['127.0.0.1:50051', '127.0.0.1:50052']
+17:35:10 [WARNING] Node-4: Election timeout (3.30s). Starting election...
+17:35:10 [INFO] Node-4: Became CANDIDATE. Term: 3. Requesting votes...
+17:35:10 [DEBUG] Node-4: Vote received from Node 5. Total: 2
+17:35:10 [DEBUG] Node-4: Vote received from Node 3. Total: 3
+17:35:10 [INFO] Node-4: *** BECAME LEADER (Term 3) ***
+17:35:14 [INFO] Node-4: Voted YES for Node 3 in Term 4
+17:35:17 [INFO] Node-4: Voted YES for Node 3 in Term 6
+17:35:26 [INFO] Node-4: Voted YES for Node 3 in Term 8
+17:35:35 [INFO] Node-4: Voted YES for Node 3 in Term 10
+17:35:43 [INFO] Node-4: Voted YES for Node 3 in Term 12
+17:35:52 [INFO] Node-4: Voted YES for Node 3 in Term 14
+17:36:00 [INFO] Node-4: Voted YES for Node 3 in Term 16
+17:36:11 [INFO] Node-4: Voted YES for Node 3 in Term 18
+17:36:22 [INFO] Node-4: Voted YES for Node 3 in Term 20
+17:36:30 [INFO] Node-4: Voted YES for Node 3 in Term 22
+17:36:38 [INFO] Node-4: Voted YES for Node 3 in Term 24
+17:36:49 [INFO] Node-4: Voted YES for Node 3 in Term 26
+17:36:57 [INFO] Node-4: Voted YES for Node 3 in Term 28
+17:37:06 [INFO] Node-4: Voted YES for Node 3 in Term 30
+17:37:17 [INFO] Node-4: Voted YES for Node 3 in Term 32
+17:37:25 [INFO] Node-4: Voted YES for Node 3 in Term 34
+17:37:35 [INFO] Node-4: Voted YES for Node 3 in Term 36
+17:37:45 [INFO] Node-4: Voted YES for Node 3 in Term 38
+17:37:54 [INFO] Node-4: Voted YES for Node 3 in Term 40
+17:38:02 [INFO] Node-4: Voted YES for Node 3 in Term 42
+17:38:12 [INFO] Node-4: Voted YES for Node 3 in Term 44
+17:38:18 [INFO] Node-4: Voted YES for Node 3 in Term 46
+17:38:29 [INFO] Node-4: Voted YES for Node 3 in Term 48
+17:38:39 [INFO] Node-4: Voted YES for Node 3 in Term 50
+17:38:48 [INFO] Node-4: Voted YES for Node 3 in Term 52
+17:38:57 [INFO] Node-4: Voted YES for Node 3 in Term 54
+17:39:07 [INFO] Node-4: Voted YES for Node 3 in Term 56
+17:39:13 [INFO] Node-4: Voted YES for Node 3 in Term 58
+17:39:22 [INFO] Node-4: Voted YES for Node 3 in Term 60
+17:39:31 [INFO] Node-4: Voted YES for Node 3 in Term 62
+17:39:39 [INFO] Node-4: Voted YES for Node 3 in Term 64
+17:39:50 [INFO] Node-4: Voted YES for Node 3 in Term 66
+17:39:59 [INFO] Node-4: Voted YES for Node 3 in Term 68
+17:40:06 [INFO] Node-4: Voted YES for Node 3 in Term 70
+17:40:16 [INFO] Node-4: Voted YES for Node 3 in Term 72
+17:40:31 [INFO] Node-4: Server stopped.
+17:41:01 [INFO] Node-4: Node initialized. State: FOLLOWER, Term: 0
+17:41:01 [INFO] Node-4: Server started listening on 127.0.0.1:50054
+17:42:03 [WARNING] Node-4: Partition updated. Blocked: ['127.0.0.1:50051', '127.0.0.1:50052']
+17:42:07 [INFO] Node-4: Voted YES for Node 3 in Term 3
+17:45:41 [INFO] Node-4: Server stopped.
+17:45:57 [INFO] Node-4: Node initialized. State: FOLLOWER, Term: 0
+17:45:57 [INFO] Node-4: Server started listening on 127.0.0.1:50054
+17:46:19 [WARNING] Node-4: Partition updated. Blocked: ['127.0.0.1:50051', '127.0.0.1:50052']
+17:46:22 [INFO] Node-4: Voted YES for Node 3 in Term 3
+17:50:21 [INFO] Node-4: Checking committed entry... APPLIED TO DB: partitions = test_notfail
+17:53:21 [WARNING] Node-4: Partition updated. Blocked: []
+17:53:21 [INFO] Node-4: Voted YES for Node 3 in Term 5
