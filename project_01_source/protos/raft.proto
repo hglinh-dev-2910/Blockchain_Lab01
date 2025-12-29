@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package raft;
+
+service RaftService {
+    rpc RequestVote (RequestVoteArgs) returns (RequestVoteReply) {}
+    rpc AppendEntries (AppendEntriesArgs) returns (AppendEntriesReply) {}
+    rpc SetPartition (PartitionArgs) returns (PartitionReply) {}
+}
+
+message RequestVoteArgs {
+    int32 term = 1;
+    int32 candidateId = 2;
+    int32 lastLogIndex = 3;
+    int32 lastLogTerm = 4;
+}
+
+message RequestVoteReply {
+    int32 term = 1;
+    bool voteGranted = 2;
+}
+
+message LogEntry {
+    int32 term = 1;
+    string command = 2;
+}
+
+message AppendEntriesArgs {
+    int32 term = 1;
+    int32 leaderId = 2;
+    int32 prevLogIndex = 3;
+    int32 prevLogTerm = 4;
+    repeated LogEntry entries = 5;
+    int32 leaderCommit = 6;
+}
+
+message AppendEntriesReply {
+    int32 term = 1;
+    bool success = 2;
+}
+
+message PartitionArgs {
+    repeated string blocked_ips = 1;
+}
+
+message PartitionReply {
+    bool success = 1;
+}
